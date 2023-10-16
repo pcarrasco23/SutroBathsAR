@@ -19,8 +19,13 @@ namespace Arrow
         protected override float Offset => Time.time * speed;
         protected override float FadeDistance => fadeDistance;
 
+		[SerializeField] GameObject endAnchor;
+
         protected override void Update()
         {
+			start = transform.position;
+			end = endAnchor.transform.position;
+
             base.Update();
             UpdateSegments();
         }
