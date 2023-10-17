@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: ARCoreDemo
+  productName: ARCoreArrows
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -135,10 +135,6 @@ PlayerSettings:
   loadStoreDebugModeEnabled: 0
   bundleVersion: 0.1
   preloadedAssets:
-  - {fileID: 1858265318275528556, guid: 3f0adc58039821149919d1bf8a313a05, type: 2}
-  - {fileID: 11400000, guid: 5c1cf7808f187fc4db2e3af761460d6a, type: 2}
-  - {fileID: 4800000, guid: c9f956787b1d945e7b36e0516201fc76, type: 3}
-  - {fileID: 4800000, guid: 0945859e5a1034c2cb6dce53cb4fb899, type: 3}
   - {fileID: 11400000, guid: 708f6396e05b5514ab4ee262c375488e, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0

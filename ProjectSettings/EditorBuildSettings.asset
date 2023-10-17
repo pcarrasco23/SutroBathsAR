@@ -8,9 +8,12 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/CoralGables.unity
     guid: 731124bba562d4840aefaf40b3b452c0
+  - enabled: 1
+    path: Assets/Scenes/CoralGables-NoArrows.unity
+    guid: 1c888d681add2254cb75c65af85d2114
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: d344f5325685f7542b585488ae36c4bc, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 172a03b15405b494db2b09dd547a5778, type: 2}
