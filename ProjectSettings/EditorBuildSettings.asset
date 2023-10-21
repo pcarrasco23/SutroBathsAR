@@ -9,9 +9,9 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 0
-    path: Assets/Scenes/CoralGables.unity
-    guid: 731124bba562d4840aefaf40b3b452c0
-  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
     path: Assets/Scenes/CoralGables-NoArrows.unity
     guid: 1c888d681add2254cb75c65af85d2114
   m_configObjects:
