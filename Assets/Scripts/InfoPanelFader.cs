@@ -1,11 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class InfoPanelFader : MonoBehaviour
 {
 	[SerializeField] float Distance = 8.0f;
 	[SerializeField] GameObject pinpoint;
+	[SerializeField] Text SnackBarTextField;
+	[SerializeField] [Multiline] string text;
 	private Vector3 originalScale;
 
 	private void Start()
@@ -22,6 +25,7 @@ public class InfoPanelFader : MonoBehaviour
 		{
 			transform.localScale = originalScale;
 			pinpoint.SetActive(false);
+			SnackBarTextField.text = text;
 		}
 		else
 		{

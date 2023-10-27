@@ -652,7 +652,7 @@ namespace Google.XR.ARCoreExtensions.Samples.Geospatial
                 else
                 {
                     _localizationPassedTime += Time.deltaTime;
-                    SnackBarText.text = _localizationInstructionMessage;
+                    //SnackBarText.text = _localizationInstructionMessage;
                 }
             }
             else if (_isLocalizing)
@@ -702,13 +702,14 @@ namespace Google.XR.ARCoreExtensions.Samples.Geospatial
                     _clearStreetscapeGeometryRenderObjects = false;
                 }
 
-                if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began
-                    && !EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId)
-                    && _anchorObjects.Count < _storageLimit)
-                {
-                    // Set anchor on screen tap.
-                    PlaceAnchorByScreenTap(Input.GetTouch(0).position);
-                }
+				// No anchors placement for this demo
+                //if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began
+                //    && !EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId)
+                //    && _anchorObjects.Count < _storageLimit)
+                //{
+                //    // Set anchor on screen tap.
+                //    PlaceAnchorByScreenTap(Input.GetTouch(0).position);
+                //}
 
                 // Hide anchor settings and toggles if the storage limit has been reached.
                 if (_anchorObjects.Count >= _storageLimit)
