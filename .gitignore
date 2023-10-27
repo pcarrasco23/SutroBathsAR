@@ -74,3 +74,5 @@ vrn.keystore
 
 # Piglet
 /[Aa]ssets/Piglet
+Packages/manifest.json
+Packages/packages-lock.json
