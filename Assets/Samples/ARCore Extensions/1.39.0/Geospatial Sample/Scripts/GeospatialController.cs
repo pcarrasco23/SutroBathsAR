@@ -465,11 +465,11 @@ namespace Google.XR.ARCoreExtensions.Samples.Geospatial
             RooftopAnchorToggle.gameObject.SetActive(false);
             ClearAllButton.gameObject.SetActive(false);
             DebugText.gameObject.SetActive(Debug.isDebugBuild && EarthManager != null);
-            GeometryToggle.onValueChanged.AddListener(OnGeometryToggled);
-            AnchorSettingButton.onClick.AddListener(OnAnchorSettingButtonClicked);
-            GeospatialAnchorToggle.onValueChanged.AddListener(OnGeospatialAnchorToggled);
-            TerrainAnchorToggle.onValueChanged.AddListener(OnTerrainAnchorToggled);
-            RooftopAnchorToggle.onValueChanged.AddListener(OnRooftopAnchorToggled);
+            //GeometryToggle.onValueChanged.AddListener(OnGeometryToggled);
+            //AnchorSettingButton.onClick.AddListener(OnAnchorSettingButtonClicked);
+            //GeospatialAnchorToggle.onValueChanged.AddListener(OnGeospatialAnchorToggled);
+            //TerrainAnchorToggle.onValueChanged.AddListener(OnTerrainAnchorToggled);
+            //RooftopAnchorToggle.onValueChanged.AddListener(OnRooftopAnchorToggled);
 
             _localizationPassedTime = 0f;
             _isLocalizing = true;
