@@ -1,9 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class InfoPanelFader : MonoBehaviour
+public class InfoPanelHandler : MonoBehaviour
 {
 	[SerializeField] float Distance = 8.0f;
 	[SerializeField] GameObject pinpoint;

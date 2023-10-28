@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.cesium.unity": {
-      "version": "file:/Users/ethanbuttimer/Documents/Unity/Packages/com.cesium.unity-1.6.3.tgz",
+      "version": "file:C:/Users/pcarr/Downloads/com.cesium.unity-1.6.3.tgz",
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {
@@ -12,7 +12,7 @@
       }
     },
     "com.google.ar.core.arfoundation.extensions": {
-      "version": "file:/Users/ethanbuttimer/Documents/Unity/Packages/arcore-unity-extensions-master",
+      "version": "file:C:/Users/pcarr/Downloads/arcore-unity-extensions-master",
       "depth": 0,
       "source": "local",
       "dependencies": {
