@@ -1141,7 +1141,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &195393090
 GameObject:
@@ -1455,7 +1455,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &430750537
 GameObject:
@@ -1830,6 +1830,105 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+--- !u!1001 &569775003
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -9167430711760299206, guid: 8f233822f09498347bcf1fe1e81abe18, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1b121b5162e7f7e409a938dfdf35624a, type: 2}
+    - target: {fileID: -8679921383154817045, guid: 8f233822f09498347bcf1fe1e81abe18, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f233822f09498347bcf1fe1e81abe18, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.88
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f233822f09498347bcf1fe1e81abe18, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f233822f09498347bcf1fe1e81abe18, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f233822f09498347bcf1fe1e81abe18, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -187.92
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f233822f09498347bcf1fe1e81abe18, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -39.17
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f233822f09498347bcf1fe1e81abe18, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -30.28
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f233822f09498347bcf1fe1e81abe18, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.9999704
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f233822f09498347bcf1fe1e81abe18, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f233822f09498347bcf1fe1e81abe18, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.007698611
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f233822f09498347bcf1fe1e81abe18, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f233822f09498347bcf1fe1e81abe18, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f233822f09498347bcf1fe1e81abe18, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f233822f09498347bcf1fe1e81abe18, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8140819409392813714, guid: 8f233822f09498347bcf1fe1e81abe18, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1b121b5162e7f7e409a938dfdf35624a, type: 2}
+    - target: {fileID: -6655959666965556491, guid: 8f233822f09498347bcf1fe1e81abe18, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1b121b5162e7f7e409a938dfdf35624a, type: 2}
+    - target: {fileID: 919132149155446097, guid: 8f233822f09498347bcf1fe1e81abe18, type: 3}
+      propertyPath: m_Name
+      value: bath_structure_sutro_05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3504409406182429200, guid: 8f233822f09498347bcf1fe1e81abe18, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1b121b5162e7f7e409a938dfdf35624a, type: 2}
+    - target: {fileID: 3611102939882002277, guid: 8f233822f09498347bcf1fe1e81abe18, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1b121b5162e7f7e409a938dfdf35624a, type: 2}
+    - target: {fileID: 8342265513433431819, guid: 8f233822f09498347bcf1fe1e81abe18, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1b121b5162e7f7e409a938dfdf35624a, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: 7869873546869171050, guid: 8f233822f09498347bcf1fe1e81abe18, type: 3}
+    - {fileID: 7655633259851401260, guid: 8f233822f09498347bcf1fe1e81abe18, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8f233822f09498347bcf1fe1e81abe18, type: 3}
 --- !u!1 &586396980
 GameObject:
   m_ObjectHideFlags: 0
@@ -2095,7 +2194,7 @@ RectTransform:
   - {fileID: 61745208}
   - {fileID: 782365344}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2155,7 +2254,7 @@ Transform:
   m_Children:
   - {fileID: 1451910695}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &691323910
 MonoBehaviour:
@@ -2373,13 +2472,101 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7640558969779515294, guid: a0399487d5bcede4b9ef15cc29e1ffd6, type: 3}
+      propertyPath: m_Name
+      value: backsideExtension
+      objectReference: {fileID: 0}
+    - target: {fileID: -7271449666460269675, guid: a0399487d5bcede4b9ef15cc29e1ffd6, type: 3}
+      propertyPath: m_Name
+      value: railroadDepotExtension2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7146521406498821007, guid: a0399487d5bcede4b9ef15cc29e1ffd6, type: 3}
+      propertyPath: m_Name
+      value: baths3
+      objectReference: {fileID: 0}
+    - target: {fileID: -6763858364670572316, guid: a0399487d5bcede4b9ef15cc29e1ffd6, type: 3}
+      propertyPath: m_Name
+      value: cliffHouse
+      objectReference: {fileID: 0}
+    - target: {fileID: -4906838889796845047, guid: a0399487d5bcede4b9ef15cc29e1ffd6, type: 3}
+      propertyPath: m_Name
+      value: ovalPond2
+      objectReference: {fileID: 0}
+    - target: {fileID: -3778644264426962316, guid: a0399487d5bcede4b9ef15cc29e1ffd6, type: 3}
+      propertyPath: m_Name
+      value: powerHouse2
+      objectReference: {fileID: 0}
+    - target: {fileID: -2764512629625626004, guid: a0399487d5bcede4b9ef15cc29e1ffd6, type: 3}
+      propertyPath: m_Name
+      value: powerHouse3
+      objectReference: {fileID: 0}
+    - target: {fileID: -2045257923548263128, guid: a0399487d5bcede4b9ef15cc29e1ffd6, type: 3}
+      propertyPath: m_Name
+      value: giftShops1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2040254050740271484, guid: a0399487d5bcede4b9ef15cc29e1ffd6, type: 3}
+      propertyPath: m_Name
+      value: powerHouse4
+      objectReference: {fileID: 0}
+    - target: {fileID: -1599826595754709761, guid: a0399487d5bcede4b9ef15cc29e1ffd6, type: 3}
+      propertyPath: m_Name
+      value: glassDome
+      objectReference: {fileID: 0}
+    - target: {fileID: -516098083770646512, guid: a0399487d5bcede4b9ef15cc29e1ffd6, type: 3}
+      propertyPath: m_Name
+      value: baths1
+      objectReference: {fileID: 0}
+    - target: {fileID: -466329591000292508, guid: a0399487d5bcede4b9ef15cc29e1ffd6, type: 3}
+      propertyPath: m_Name
+      value: museum1
+      objectReference: {fileID: 0}
+    - target: {fileID: -208595431880416365, guid: a0399487d5bcede4b9ef15cc29e1ffd6, type: 3}
+      propertyPath: m_Name
+      value: museum2
+      objectReference: {fileID: 0}
+    - target: {fileID: 281855664364225751, guid: a0399487d5bcede4b9ef15cc29e1ffd6, type: 3}
+      propertyPath: m_Name
+      value: entrance
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a0399487d5bcede4b9ef15cc29e1ffd6, type: 3}
       propertyPath: m_Name
       value: sutro_terrain
       objectReference: {fileID: 0}
+    - target: {fileID: 1502877291743220047, guid: a0399487d5bcede4b9ef15cc29e1ffd6, type: 3}
+      propertyPath: m_Name
+      value: giftShops2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4356877828898064976, guid: a0399487d5bcede4b9ef15cc29e1ffd6, type: 3}
+      propertyPath: m_Name
+      value: ovalPond1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4504409719310791647, guid: a0399487d5bcede4b9ef15cc29e1ffd6, type: 3}
+      propertyPath: m_Name
+      value: powerHouse1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5252682845850649624, guid: a0399487d5bcede4b9ef15cc29e1ffd6, type: 3}
+      propertyPath: m_Name
+      value: giftShops3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6014503084441653313, guid: a0399487d5bcede4b9ef15cc29e1ffd6, type: 3}
+      propertyPath: m_Name
+      value: pier
+      objectReference: {fileID: 0}
     - target: {fileID: 7655633259851401260, guid: a0399487d5bcede4b9ef15cc29e1ffd6, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8009987137999418058, guid: a0399487d5bcede4b9ef15cc29e1ffd6, type: 3}
+      propertyPath: m_Name
+      value: railroadDepot
+      objectReference: {fileID: 0}
+    - target: {fileID: 8416272007918961125, guid: a0399487d5bcede4b9ef15cc29e1ffd6, type: 3}
+      propertyPath: m_Name
+      value: baths2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8485173162082002552, guid: a0399487d5bcede4b9ef15cc29e1ffd6, type: 3}
+      propertyPath: m_Name
+      value: railroadDepotExtension1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -4163,7 +4350,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1180705287
 GameObject:
@@ -5186,7 +5373,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1486143798
 GameObject:
@@ -5512,7 +5699,7 @@ Transform:
   m_Children:
   - {fileID: 1291257415}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1664493016
 GameObject:
@@ -6106,11 +6293,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b3d0e3f52dfe4243aceaba16f9cd0c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AltType: 0
+  _altitudeOffset: 0
   _latitude: 37.78064239370211
   _longitude: -122.51178044640169
   _altitude: 17.640000428009955
-  _altitudeOffset: 0
+  _altitudeType: 0
+  _anchorManager: {fileID: 0}
 --- !u!4 &1689267242
 Transform:
   m_ObjectHideFlags: 0
@@ -6140,7 +6328,7 @@ Transform:
   - {fileID: 2095420385}
   - {fileID: 82430920}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0.997, y: 443.716, z: 0.074}
 --- !u!1 &1702446340
 GameObject:
