@@ -14,10 +14,10 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Oakland.unity
     guid: d19030f959f4a4bf38a80ef2a5a710a6
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/SutroBaths.unity
     guid: 0847235755372de44a7760eb483fe1e4
   m_configObjects:
