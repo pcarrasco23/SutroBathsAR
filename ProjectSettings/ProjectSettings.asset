@@ -135,10 +135,6 @@ PlayerSettings:
   loadStoreDebugModeEnabled: 0
   bundleVersion: 0.1
   preloadedAssets:
-  - {fileID: -8899470836030910750, guid: 3f0adc58039821149919d1bf8a313a05, type: 2}
-  - {fileID: 11400000, guid: 5c1cf7808f187fc4db2e3af761460d6a, type: 2}
-  - {fileID: 4800000, guid: e7c77f6eaab324a819efdc13b8125a39, type: 3}
-  - {fileID: 4800000, guid: 6743a50a812740be8c0aa3fccc46fae9, type: 3}
   - {fileID: 11400000, guid: 708f6396e05b5514ab4ee262c375488e, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -159,7 +155,8 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.DefaultCompany.ARCoreDemo
+    Android: com.DefaultCompany.SutroBathsAR
+    Standalone: com.DefaultCompany.SutroBathsAR
     iPhone: com.DefaultCompany.SutroBathsAR
   buildNumber:
     Standalone: 0
@@ -877,8 +874,8 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Template_3D
-  metroPackageVersion: 
+  metroPackageName: Template3D
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -886,7 +883,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: Template_3D
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: SutroBathsAR
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
