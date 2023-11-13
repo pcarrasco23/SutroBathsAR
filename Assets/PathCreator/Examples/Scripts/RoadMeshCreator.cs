@@ -15,7 +15,7 @@ namespace PathCreation.Examples {
         public Material undersideMaterial;
         public float textureTiling = 1;
 
-        [SerializeField, HideInInspector]
+        [SerializeField]
         GameObject meshHolder;
 
         MeshFilter meshFilter;
